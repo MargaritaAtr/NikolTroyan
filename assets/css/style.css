@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bacasime+Antique&family=Bitter:ital@1&family=Ysabeau+SC&display=swap');
+  
 *{
     margin:0;
     padding:0;
@@ -10,6 +12,7 @@
   
   li{
     list-style: none;
+    font-family: 'Bacasime Antique, serif';
   }
   a{
     text-decoration: none;
@@ -34,4 +37,14 @@
   
   .logo{
     font-size: 2rem;
+  }
+
+  .nav-menu a:hover{
+    color: #fff;
+    padding: 10px 10px;
+    border: 1.5px solid ;
+  }
+  .active {
+    padding: 10px 10px;
+    border:  1.5px solid ;
   }
