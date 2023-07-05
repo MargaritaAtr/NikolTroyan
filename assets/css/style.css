@@ -63,4 +63,28 @@
     background: center center;
     background-size: cover;
   }
-
+  #cover-text { 
+    color:#ffff;
+    font-family: 'Bacasime Antique', serif;
+    font-size: 150%;
+    letter-spacing: 0px;
+    text-transform:uppercase;
+  
+    bottom: 10px;
+    right: 100px;
+    position: absolute;
+    
+    animation-name: name-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  
+  }
+  
+  @keyframes name-zoom {
+    from {
+      transform: scale(0.9);
+    }
+    to {
+      transform: scale(1.4);
+    }
+  }
