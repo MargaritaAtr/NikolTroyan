@@ -88,3 +88,31 @@
       transform: scale(1.4);
     }
   }
+
+  .content{
+    font-family: 'Bitter', serif;
+    font-size: 1.1rem;
+   
+  }
+   .cust-name{
+    text-align: right;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    padding-right: 15px;
+   }
+
+   #feedback{
+    padding: 15px;
+    border-spacing: 2px;
+    color:black;
+    font-weight: 200;
+    background-color: #cac7c7aa;
+    margin: 20px;
+  }
+
+  .feedback-line {
+    padding: 10px;
+    text-align: left;
+    border-spacing: 2px;
+  }
