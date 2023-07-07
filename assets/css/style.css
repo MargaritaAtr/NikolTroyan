@@ -151,7 +151,7 @@
   }
 
 
-/* ------------------------------ Media queries 820 */
+/* ------------------------------ Media queries 768 */
  @media screen and (min-width: 768px) {
   #portrait{
     width: 100%;
@@ -184,8 +184,7 @@
         position: absolute;
         font-size: 60%;
         bottom: 10px;
-        right: 50px;  
-      
+        right: 50px;     
     }
   .hamburger{
     display: block;
@@ -202,7 +201,6 @@
   .nav-menu{
     position: fixed;
     left: -100%;
-    /* display: block; */
     top: 70px;
     gap: 0;
     flex-direction: column;
@@ -223,5 +221,34 @@
   .nav-menu.active{
   left: 0;
   }
-  }
+}
+  /* ------------------------------About me*/
+
+.about {
+  display: flex;
+  align-items: flex-start;
+}
+.about .about_content {
+  flex:2;
+  padding: 30px 70px 30px 70px;
+}
+.about_content {
+  color: #ffffffcd;
+  font-family: 'Bitter', serif;
+  line-height: 1.5; 
+  letter-spacing: 1px;
+  
+  
+}
+#about_image{
+  width: 40%;
+  height: 600px;
+  padding: 30px 70px 30px 70px;
+  
+}
+#about_me{
+  line-height: 2.5;
+  text-transform: uppercase;
+  font-size: xx-large;
+}
   
