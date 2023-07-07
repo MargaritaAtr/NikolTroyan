@@ -17,6 +17,11 @@
                 <li class="nav-item"><a href="index.html" >Teaching</a></li>
                 <li class="nav-item"><a href="index.html" >Get in touch</a></li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
             </nav>
     </header>
       <section class="sec-display">
@@ -40,7 +45,6 @@
                 <p class="cust-name"> Galina Atraskevivs</p>
     </div>
     </section>
-   <!-- ------------------Footer -->
     <footer class="pagefooter">
         <ul id="social-links">
             <li><a href="https://www.facebook.com/nikola.trojana" target="_blank"> <i class="fa-brands fa-facebook"></i></li>
@@ -48,6 +52,15 @@
             <li><a href="https://www.instagram.com/ntrojana" target="_blank"><i class="fa-brands fa-instagram"> </i></li>
         </ul>
     </footer>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+    
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    })
+    </script>
     
 </body>
 </html>
