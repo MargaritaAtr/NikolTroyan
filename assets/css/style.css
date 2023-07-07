@@ -53,6 +53,20 @@
     padding: 10px 10px;
     border:  1.5px solid ;
   }
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+  }
 
    /* ------------------------------Home page */
 
@@ -173,5 +187,41 @@
         right: 50px;  
       
     }
+  .hamburger{
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    /* display: block; */
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color:rgb(2,21,21) ;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 1;
+    
+  }
+  
+  .nav-item{
+  border-top: 1px solid white;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  }
+
+  .nav-menu.active{
+  left: 0;
+  }
   }
   
