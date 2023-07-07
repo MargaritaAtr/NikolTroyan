@@ -91,7 +91,6 @@
 
   .content{
     font-family: 'Bitter', serif;
-    font-size: 1.1rem;
    
   }
    .cust-name{
@@ -103,7 +102,7 @@
    }
 
    #feedback{
-    padding: 15px;
+    padding: 15px ;
     border-spacing: 2px;
     color:black;
     font-weight: 200;
@@ -115,4 +114,28 @@
     padding: 10px;
     text-align: left;
     border-spacing: 2px;
+  }
+
+  /* ------------------------------Footer */
+  footer{
+    margin: 1em;
+    justify-content: space-between; 
+  }
+  
+  #social-links{
+    text-align: center;
+  }
+
+  #social-links li {
+    display: inline;  
+  }
+
+  #social-links i {
+    font-size: 150%;
+    margin: 1%;
+    color: #fff;
+  }
+
+  footer {
+    color: white;
   }
