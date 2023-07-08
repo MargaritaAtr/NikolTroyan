@@ -182,8 +182,66 @@
     text-transform: uppercase;
     font-size: xx-large;
   }
-   
-/* ------------------------------ Media queries 768 */
+/* ------------------------------ Projects */
+#projects h1{
+  background-color: #fff;
+}
+#projects h2{
+  color: black;
+}
+.left-about{
+  display: table;
+  padding: 50px ;
+  width: 50%;
+  float: left;
+  color: #ffffffcd;
+
+}
+
+.right-about{
+  display: table;
+  padding: 50px;
+  width: 50%;
+  float: right;
+  color: #ffffffcd;
+}
+hr{
+  border-top: 1px solid #fff;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.left-about-heading{
+  display: table-cell;
+  width: 75%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+  background-color:#cac7c7aa;
+  padding: 20px;
+  border-radius:25px ;
+ 
+
+}
+
+.right-about-heading{
+  display: table-cell;
+  width: 75%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+  background-color:#cac7c7aa;
+  padding: 20px;
+  border-radius:25px;
+}
+
+#right-bottom{
+  padding-bottom: 40px;
+}
+
+/* ------------------------------ Media queries 820 */
  @media screen and (max-width: 820px) {
   #portrait{
     width: 100%;
