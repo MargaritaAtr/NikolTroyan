@@ -12,7 +12,12 @@
   /* ------------------------------Header */
   header{
     background-color: rgb(2,21,21);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
   }
+  
   
   .nav-item{
     list-style: none;
