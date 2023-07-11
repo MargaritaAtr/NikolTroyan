@@ -7,7 +7,7 @@
   }
   body{
     font-family: 'Bacasime Antique', serif; 
-    background-color:rgb(2,21,21);
+    background-color:rgb(2, 21, 21);
   } 
   /* ------------------------------Header */
   header{
@@ -78,7 +78,7 @@
     background-size: cover;
   }
   #cover-text { 
-    color:#ffff;
+    color:whitesmoke;
     font-family: 'Bacasime Antique', serif;
     font-size: 150%;
     letter-spacing: 0px;
@@ -133,7 +133,9 @@
   /* ------------------------------Footer */
   footer{
     margin: 1em;
+    /* display: flex; */
     justify-content: space-between; 
+    /* align-items: flex-start; */
   }
   
   #social-links{
@@ -284,7 +286,105 @@ float:inline-start;
   list-style: none;
 }
 
+/* ------------------------------ Get in touch  */
+/* 
+input[type=text], textarea{
+  width: 50%;
+  padding: 12px;
+  border:1px solid #fff;
 }
+  input [type=submit] {
+    background-color: #cac7c7aa;
+    color: #fff;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+input[type=submit]:hover {
+  background-color: #c6bebe52;
+}
+ label{
+  color:#fff
+ } */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.contact h1, p, label {
+  color: whitesmoke;
+}
+
+  form{
+  width:90%;
+  max-width:600px;
+  }
+  .input{
+    margin-bottom:30px;
+    position: relative;
+  }
+  input, textarea {
+    width:100%;
+    padding: 10px;
+    outline: 0;
+    border:1px solid whitesmoke;
+    background: transparent;
+    font-size: 15px;
+  }
+  .form h1 {
+    margin:30px 0;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+  }
+  .form p {
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-weight:100px;
+  }
+
+  label{
+    height:100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    padding: 10px;
+    color:#fff;
+    cursor: text;
+    transition: 0.2s;
+  }
+
+  button{
+    padding:10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width:100%;
+    cursor: pointer;
+  }
+  /* input:focus~label,
+  input:valid~label 
+  textarea:focus~label,
+  textarea:valid~label {
+    top:-35px;
+    font-size:14px;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .row.input{
+    flex-basis:48%;
+  }
+   */
+  /* background-image:linear-gradient(rgb(2,21,21)); 
+  background-position: center;
+  background-size: cover; */
+ 
 
 
 /* ------------------------------ Media queries 820 */
