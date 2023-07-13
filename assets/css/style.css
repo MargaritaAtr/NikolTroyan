@@ -82,6 +82,7 @@
     background-repeat: no-repeat;
     background: center center;
     background-size: cover;
+    margin-top: -2.5rem;
   }
   #cover-text { 
     color:whitesmoke;
@@ -113,9 +114,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
     gap:20px;
-    padding:15px;
+    padding:20px;
   }
-  
 
   .feedback-column {
     width: 100%;
@@ -125,17 +125,17 @@
   }
  
   .content{
+    text-align: left;
     font-family: 'Bacasime Antique', serif;
     color: black;
     font-weight: 200;
-    padding: 10px;
   }
   .cust-name{
     text-align: right;
     font-family: 'Playfair Display', serif;
     color: #fff;
     font-weight: 500;
-    padding-right: 15px;
+  
    }
 
   /* ------------------------------Footer */
@@ -233,24 +233,10 @@ hr{
   clear: both;
   margin-bottom: 30px;
   background-color: white;
+  background-image:linear-gradient(whitesmoke,rgba(0,0,0,0.5));
   padding: 20px;
   border-radius:25px; 
-  
 }
-
- .art {
-  background-image:linear-gradient(whitesmoke,rgba(0,0,0,0.1)),url('/assets/images/art.jpeg') ;
-} 
- .excel{
-  background-image:linear-gradient(whitesmoke,rgba(0,0,0,0.1)),url('/assets/images/excel.jpeg') ;
- }
-
- .exams{
-  background-image:linear-gradient(whitesmoke,rgba(0,0,0,0.1)),url('/assets/images/exams1.jpg') ;
- }
- .support{
-  background-image:linear-gradient(whitesmoke,rgba(0,0,0,0.1)),url('/assets/images/physics.jpeg') ;
- }
 
 .right-about-heading{
   width: 100%;
@@ -259,14 +245,9 @@ hr{
   clear: both;
   margin-bottom: 30px;
   background-color:white;
+  background-image:linear-gradient(whitesmoke,rgba(0,0,0,0.5));
   padding: 20px;
   border-radius:25px;
-}
-
-.container ul li {
-  list-style-position: inside;
-  padding: 10px; 
-  
 }
 
 .container{
@@ -279,11 +260,11 @@ hr{
 }
   
 #projects li a {
-color: black;
-padding: 5px;
-background-color: rgb(215, 192, 150);
-border-radius: 10px;
-margin: 5px;
+  color: black;
+  padding: 5px;
+  background-color: rgb(215, 192, 150);
+  border-radius: 10px;
+  margin: 5px;
 
 }
 #projects ul li{
