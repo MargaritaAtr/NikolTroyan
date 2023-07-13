@@ -109,39 +109,34 @@
     }
   }
 
+   .feedback-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+    gap:20px;
+    padding:15px;
+  }
+  
+
+  .feedback-column {
+    width: 100%;
+    padding: 10px;
+    background-color: #cac7c7aa;
+    border-radius: 15px;
+  }
+ 
   .content{
     font-family: 'Bacasime Antique', serif;
-   
+    color: black;
+    font-weight: 200;
+    padding: 10px;
   }
-   .cust-name{
+  .cust-name{
     text-align: right;
     font-family: 'Playfair Display', serif;
     color: #fff;
     font-weight: 500;
     padding-right: 15px;
    }
-
-   .feedback-row{
-    padding: 15px ;
-    border-spacing: 2px;
-    background-color: #cac7c7aa;
-    margin: 20px;
-  }
-
-  .feedback-column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    /* background-color: #cac7c7aa; */
-  }
-  .feedback-row{
-    display: table;
-    clear: both;
-  }
-  .content{
-    color: black;
-    font-weight: 200;
-  }
 
   /* ------------------------------Footer */
   footer{
@@ -349,7 +344,7 @@ margin: 5px;
 
   label{
     height:100%;
-    /* position: absolute; */
+    position: absolute;
     left: 0;
     top:0;
     padding: 10px;
