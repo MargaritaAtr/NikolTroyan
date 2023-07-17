@@ -10,16 +10,15 @@
     background-color:rgb(2, 21, 21);
     
   } 
-  .response{
+  .response {
    text-align: center;
    text-transform: uppercase;
-   font-family: 'Bacasime Antique, serif';
+   font-family: 'Bitter', serif;
    color: whitesmoke;
-   font-size: 70px;
-   margin-top: 200px;
+   margin-top: 100px;
 
   }
-
+  
   /* ------------------------------Header */
   header{
     background-color: rgb(2,21,21);
