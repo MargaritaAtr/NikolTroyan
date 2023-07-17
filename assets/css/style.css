@@ -422,15 +422,11 @@ hr{
     padding-bottom: 150px;
   }
 
-  .feedback-container{
-    display: flex;
-    flex-direction: column;
-  }
+
 }
   
- /* For medium screen sizes from 820px wide & down  */
-@media screen and (max-width: 820px) {
-
+ /* For medium screen sizes from 700px wide & down  */
+@media screen and (max-width: 700px) {
 
 
   header{
@@ -473,6 +469,10 @@ hr{
     columns: 1;
   }
   
+  .feedback-container{
+    display: flex;
+    flex-direction: column;
+  }
 
 }
 
