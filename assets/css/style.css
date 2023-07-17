@@ -127,7 +127,7 @@
 
    .feedback-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px,2fr));
     gap:20px;
     padding:30px;
     margin-top: 10px;
@@ -421,10 +421,17 @@ hr{
   .contact{
     padding-bottom: 150px;
   }
+
+  .feedback-container{
+    display: flex;
+    flex-direction: column;
+  }
 }
   
  /* For medium screen sizes from 820px wide & down  */
 @media screen and (max-width: 820px) {
+
+
 
   header{
     background-color: rgb(2,21,21);
@@ -473,6 +480,10 @@ hr{
 /* For medium screen sizes from 460px wide & down  */
 @media screen and (max-width: 460px) {
 
+  .nav-menu a:hover{
+    border: none;
+  }
+
   header{
     background-color: rgb(2,21,21);
     position: fixed;
@@ -495,7 +506,7 @@ hr{
       position: absolute;
       font-size: 70%;
       bottom: 10px;
-      right: 60px;     
+      right: 30px;     
   }
 .hamburger{
   display: block;
@@ -551,6 +562,15 @@ left: 0;
   padding-top: 70px;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-container{
+  display: flex;
+  flex-direction: column;
+}
 }
 
 
