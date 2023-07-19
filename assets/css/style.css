@@ -200,7 +200,7 @@
   
   #picture{
     width: 100%;
-    max-height: auto;
+    max-height:auto;
     padding: 50px;
   }
   
@@ -319,7 +319,7 @@ hr{
   .input{
     margin-bottom:30px;
     position: relative;
-    color: whitesmoke;
+  
   }
   input, textarea {
     width:100%;
@@ -331,14 +331,10 @@ hr{
     color: whitesmoke;
   }
   label{
-    height:100%;
-     /* position: absolute;
-    /* left: 0;
-    top:0;  */ 
+    height:100%; 
     padding: 10px;
-    color:#fff;
     cursor: text;
-    transition: 0.2s;
+    
   }
   .contact h1 {
     margin-top:30px ;
@@ -348,7 +344,6 @@ hr{
   }
   .contact p {
   margin: 30px 0;
-  font-weight:100px;
   font-family: 'Bitter', serif;
   }
   
@@ -361,20 +356,6 @@ hr{
     width:100%;
     cursor: pointer;
   }
-
-  .contact{
-    padding-bottom: 100px;
-  }
-  
-  /* input:focus~label,
-  input:valid~label, 
-  textarea:focus~label,
-  textarea:valid~label {
-    top:-35px;
-    font-size:14px;
-  } */
-
-
 
  /* For medium screen sizes from 1220px wide & down  */
  @media screen and (max-width: 1220px) {
