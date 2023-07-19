@@ -38,7 +38,7 @@
   }
   a{
     text-decoration: none;
-    color: #fff;
+    color: whitesmoke;
   }
   
   .navbar{
@@ -78,7 +78,6 @@
     width: 25px;
     height: 3px;
     margin: 5px;
-    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #fff;
   }
@@ -135,8 +134,9 @@
   .feedback-column {
     width: 100%;
     padding: 10px;
-    background-color: #cac7c7aa;
+    background-color: #cac7c7;
     border-radius: 15px;
+
   }
  
   .content{
@@ -149,7 +149,7 @@
   .cust-name{
     text-align: right;
     font-family: 'Playfair Display', serif;
-    color: #fff;
+    color:black;
     font-weight: 500;
   
    }
@@ -187,7 +187,7 @@
     padding: 70px 50px 50px 50px;
   }
   .about-content {
-    color: #ffffffcd;
+    color: whitesmoke;
     font-family: 'Bitter', serif;
     line-height: 1.3; 
     letter-spacing: 1px;
@@ -200,7 +200,7 @@
   
   #picture{
     width: 100%;
-    max-height:auto;
+    height:auto;
     padding: 50px;
   }
   
@@ -367,7 +367,7 @@ hr{
     width: 100%;
     z-index: 2;
     margin-bottom: 70px;
-  }
+  } 
  
     #portrait{
       width: 100%;
