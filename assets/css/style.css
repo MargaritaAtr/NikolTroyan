@@ -59,6 +59,12 @@ a {
   border: 1.5px solid;
 }
 
+.active{
+  color: #fff;
+  padding: 10px 10px;
+  border-bottom: 1.5px solid;
+}
+
 .hamburger {
   display: none;
   cursor: pointer;
@@ -174,7 +180,7 @@ footer {
 
 
 
-/* ------------------------------About me*/
+/* ------------------------------About me page */
 
 .about {
   display: flex;
@@ -223,7 +229,7 @@ footer {
   padding: 5px 0;
 }
 
-/* ------------------------------ Projects */
+/* ------------------------------ Projects page */
 
 #projects h1 {
   text-transform: uppercase;
@@ -445,6 +451,10 @@ button {
 
 /* For medium screen sizes from 460px wide & down  */
 @media screen and (max-width: 460px) {
+.active{
+  border: none;
+}
+
   .nav-menu a:hover {
     border: none;
   }

@@ -5,7 +5,7 @@
 
  I have expressed my wish to create a website for her that she could use. 
 
- The website is live and the link can be found here [Here](url(https://margaritaatr.github.io/nikoltroyan/))
+ The website is live and the link can be found here [Here](https://margaritaatr.github.io/nikoltroyan/)
 
 <br>
 
@@ -96,7 +96,7 @@ The icons used  for social media links and projects are from [Font Awesome.](htt
 
 ## `Imagery:`
 
- Nikol has provided portrait pictures of herself. The portrait on the home page, was taken by professional photographer.This photo allows the eye-contact experience, usually lacking in online interactions and provides greater trust and sympathy. 
+ Nikol has provided portrait pictures of herself. The portrait on the home page, was taken by professional photographer. This photo allows the eye-contact experience, usually lacking in online interactions and provides greater trust and sympathy. 
 The picture on "About Me" page ( was taken by phone) is more relaxed and creates a warm atmosphere while reading about Nikol's personal story. 
 
 <br>
@@ -140,7 +140,7 @@ The picture on "About Me" page ( was taken by phone) is more relaxed and creates
 
 -  The section includes the feedback from Nikol's three customers.
 -  Reading the service feedback is essential for the research as it provides a natural feeling about it.
--  The feedback containers are responsive for media queries less than 700px and 460px screens , using flex layout.
+-  The feedback containers are responsive for media queries less than 700px screens , using flex layout.
 
 <br>
 
@@ -150,7 +150,7 @@ The picture on "About Me" page ( was taken by phone) is more relaxed and creates
 ![Alt text](/assets/features/footer.png)
 <br>
 
- The footer includes the three links to Nikol`s social media platforms, like Facebook,Telegramm and Instagramm.
+ The footer includes the three links to Nikol`s social media platforms, like Facebook,Telegramm and Instagram.
 <br>
 
 ## **`ABOUT ME `**
@@ -197,7 +197,7 @@ The picture on "About Me" page ( was taken by phone) is more relaxed and creates
 
 - The links for the websites for all projects.
 - The additonal pages for "More info".
-- Payment page.
+- The payment page.
 
 <br>
 
@@ -217,7 +217,7 @@ The picture on "About Me" page ( was taken by phone) is more relaxed and creates
 
 <br>
 
-![Alt text](/assets/features/W3C.png)
+![Alt text](/assets/features/w3c.png)
 
 <br>
 
@@ -231,8 +231,11 @@ The picture on "About Me" page ( was taken by phone) is more relaxed and creates
 
 ## **`Fixed Bugs`**
 
-- One of the bugs was to make feedback columns responsive in the media screen less than 700px. When I would decrease a screen, the three columns would not go to one vertical line. I tried to increase/decrease the grid-template-columns min-max criteria, but it did not work. After searching in Google, I found a solution in www.w3schools.com website to apply a flex style to the feedback container, and it made it work the way I like it.
+- One of the bugs was to make feedback columns responsive in the media screen less than 700px. When I would decrease a screen, the three columns would not go to one vertical line. <br>
+ ![Alt text](/assets/features/odd-feedback.png)
+  I tried to increase/decrease the grid-template-columns min-max criteria, but it did not work. After searching in Google, I found a solution in www.w3schools.com website to apply a flex style to the feedback container, and it made it work the way I like it.
 <br>
+
 ```
 .feedback-container{
     display: flex;
@@ -257,7 +260,7 @@ However, The hamburger navigation bar disappeared, and the header cut the next s
 
 <br>
 
--  When I initially ran HTML files through the W3C validator, it found a few errors, such as not closing anchors in the footer. Once added a closing tag, the issue was resolved.
+-  When I initially ran HTML files through the W3C validator, it found a few errors, such as not closing anchors in the footer. Once added a closing tags, the issue was resolved.
 
 - The same was with CSS validator. Initially, It has been identified that social media anchors in the footer were missing aria-labels attributes, which provides a way to place a descriptive text label for the links. It is required if the links are no-visible on the page; the text labels describe them.
 Once the attributes have been added, the validator has not found any errors.
